@@ -5,11 +5,11 @@ rm -rf ./dist
 mkdir ./dist
 mkdir ./dist/subapp
 
-# sub-react子应用
-cp -r ./sub-react/build/ ./dist/subapp/sub-react/
+# sub-vue-2子应用
+cp -r ./sub-vue-2/build/ ./dist/subapp/sub-vue-2/
 
-# sub-vue子应用
-cp -r ./sub-vue/dist/ ./dist/subapp/sub-vue/
+# sub-vue-1子应用
+cp -r ./sub-vue-1/dist/ ./dist/subapp/sub-vue-1/
 
 # sub-html子应用
 cp -r ./sub-html/dist/ ./dist/subapp/sub-html/

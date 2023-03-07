@@ -1,7 +1,7 @@
 const { name } = require('../package.json')
 
 module.exports = {
-  publicPath: '/subapp/sub-vue',
+  publicPath: '/subapp/sub-vue-1',
   transpileDependencies: ['common'],
   chainWebpack: config => config.resolve.symlinks(false),
   configureWebpack: {

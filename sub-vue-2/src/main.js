@@ -12,7 +12,7 @@ Vue.config.productionTip = false
 // Vue.use(a)
 
 const router = new VueRouter({
-  base: '/sub-react', // window.__POWERED_BY_QIANKUN__ ? routerBase : process.env.BASE_URL,
+  base: '/sub-vue-2', // window.__POWERED_BY_QIANKUN__ ? routerBase : process.env.BASE_URL,
   mode: 'history',
   routes
 })
