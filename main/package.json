@@ -9,10 +9,11 @@
     "start": "npm run serve"
   },
   "dependencies": {
+    "@vue/composition-api": "^1.7.1",
     "core-js": "^3.6.5",
     "nprogress": "^0.2.0",
-    "qiankun": "^2.0.22",
-    "vue": "^2.6.11"
+    "qiankun": "2.10.2",
+    "vue": "~2.6.11"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
@@ -28,6 +29,6 @@
     "eslint-plugin-vue": "^6.2.2",
     "sass": "^1.26.10",
     "sass-loader": "^10.0.2",
-    "vue-template-compiler": "^2.6.11"
+    "vue-template-compiler": "~c2.6.11"
   }
 }

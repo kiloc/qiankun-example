@@ -6,5 +6,10 @@ module.exports = {
         args[0].title = 'qiankun-example'
         return args
       })
-  }
+  },
+  configureWebpack: (config) => ({
+    externals: {
+      Vue: 'vue'
+    }
+  })
 }

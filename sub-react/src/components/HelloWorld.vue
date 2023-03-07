@@ -12,9 +12,8 @@ export default {
     msg: String
   },
   render (createElement, context) {
-    console.log(createElement, context)
-    // console.trace(this.list)
-    return <p>{this.list?.value}</p>
+    console.log(createElement, context, this.list)
+    return <p>{this.list}</p>
   }
 }
 </script>

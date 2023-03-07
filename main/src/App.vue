@@ -47,7 +47,6 @@ export default {
       }
     }
   },
-  components: {},
   methods: {
     goto (item) {
       history.pushState(null, item.activeRule, item.activeRule)
