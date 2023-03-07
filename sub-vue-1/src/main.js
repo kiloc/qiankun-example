@@ -11,17 +11,15 @@ import VueRouter from 'vue-router'
 Vue.config.productionTip = false
 // Vue.use(a)
 
-const router = new VueRouter({
-  base: '/sub-vue-1', // window.__POWERED_BY_QIANKUN__ ? routerBase : process.env.BASE_URL,
-  mode: 'history',
-  routes
-})
-
 let instance = null
 
 function render (props = {}) {
-  const { container } = props
-
+  const { container, routerBase } = props
+  const router = new VueRouter({
+    base: window.__POWERED_BY_QIANKUN__ ? routerBase : process.env.BASE_URL,
+    mode: 'history',
+    routes
+  })
   instance = new Vue({
     router,
     store,
